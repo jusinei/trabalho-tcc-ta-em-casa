@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contatos.css"
+    <title>Contatos</title>
+    
+</head>
+<body>
+    <header>
+        <div class="caixa">
+      
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="serviços.html">Produtos</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<div class="agendar">
+  <section>
+      <h1>Agende um serviço</h1>
+      <form id="form-agendamento">
+        <label for="tipo">Tipo de Serviço</label>
+        <select id="tipo" required>
+          <option value="">Selecione...</option>
+          <option value="residencial">Residencial</option>
+        </select>
+
+        <label for="data">Data</label>
+        <input type="date" id="data" required />
+
+        <label for="hora">Horário</label>
+        <input type="time" id="hora" required />
+
+        <button type="submit">Agendar</button>
+      </form>
+  </section>
+    </div>
+
+
+   <main>
+        
+            <label for="nomeSobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeSobrenome" class="input-padrão">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrão">
+
+            <label for="Telefone">Telefone</label>
+            <input type="text" id="Telefone" class="input-padrão">
+
+            <label for="Mensagem">Mensagem</label>
+            <textarea name="" id="Mensagem" cols="64" class="input-padrão"></textarea>
+            <div>
+                <p>Como prefere o nosso contato</p>
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email">E-mail</label>
+
+
+                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+            
+          </main>
+    
+</body>
+</html>

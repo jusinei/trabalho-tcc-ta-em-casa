@@ -1,0 +1,42 @@
+main{
+    width: 940px;
+    margin: 0px auto;
+}
+
+form{
+    margin: 40px 0px;
+    
+}
+
+form label,form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    
+    
+}
+
+
+.input-padrão{
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 10px 25px;
+    font-size: 20px;
+    width: 50%;
+                                                                                                              
+}
+
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.agendar{
+    margin: 0 0 10px 0;
+    padding: 10px 25px;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
