@@ -1,12 +1,37 @@
-main{
+body, html, nav, nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.espaçamento-lateral{
     width: 940px;
     margin: 0px auto;
 }
 
+header{
+    display: flex;
+}
+
+nav{
+    vertical-align: middle;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 form{
     margin: 40px 0px;
-    
 }
+
 
 form label,form p{
     display: block;
@@ -26,12 +51,6 @@ form label,form p{
                                                                                                               
 }
 
-.caixa{
-    width: 940px;
-    margin: 0 auto;
-    position: relative;
-
-}
 
 .agendar{
     margin: 0 0 10px 0;
