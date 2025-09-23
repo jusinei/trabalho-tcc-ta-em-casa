@@ -10,61 +10,61 @@
 </head>
 
 <body>
-        <header>
+    <header>
+        <nav class="flex">
             <h1>Tá em casa</h1>
-            <nav>
-                <ul>
-                    <li class="principal"><a href="index.html">Home</a></li>
-                    <li class="principal"><a href="serviços.html">Produtos</a></li>
-                    <li class="principal"><a href="contatos.html">Contatos</a></li>
-                </ul>
-            </nav>
-        </header>
+            <ul>
+                <li class="principal"><a href="index.html">Home</a></li>
+                <li class="principal"><a href="serviços.html">Produtos</a></li>
+                <li class="principal"><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
-        <main class="espaçamento-lateral">
-            <section class="agendar">
-                <h1>Agende um serviço</h1>
-                <form id="form-agendamento">
-                    <label for="tipo_serviço">Tipo de Serviço</label>
-                    <select id="tipo" required>
-                        <option id="Selecione" value="" hidden>Selecione...</option>
-                        <option value="residencial">Residencial</option>
-                    </select>
+    <main class="espaçamento-lateral">
+        <section class="agendar">
+            <h1>Agende um serviço</h1>
+            <form id="form-agendamento">
+                <label for="tipo_serviço">Tipo de Serviço</label>
+                <select id="tipo" required>
+                    <option id="Selecione" value="" hidden>Selecione...</option>
+                    <option value="residencial">Residencial</option>
+                </select>
 
-                    <label for="data">Data</label>
-                    <input type="date" id="data" required>
+                <label for="data">Data</label>
+                <input type="date" id="data" required>
 
-                    <label for="hora">Horário</label>
-                    <input type="time" id="hora" required>
+                <label for="hora">Horário</label>
+                <input type="time" id="hora" required>
 
-                    <button type="submit">Agendar</button>
-                </form>
-            </section>
-
-
-            <label for="nomeSobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomeSobrenome" class="input-padrão">
-
-            <label for="email">E-mail</label>
-            <input type="email" id="email" class="input-padrão">
-
-            <label for="Telefone">Telefone</label>
-            <input type="text" id="Telefone" class="input-padrão">
-
-            <label for="Mensagem">Mensagem</label>
-            <textarea name="" id="Mensagem" cols="64" class="input-padrão"></textarea>
-            <div>
-                <p>Como prefere o nosso contato</p>
-                <label for="radio-email"><input type="radio" name="contato" id="radio-email">E-mail</label>
+                <button type="submit">Agendar</button>
+            </form>
+        </section>
 
 
-                <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
+        <label for="nomeSobrenome">Nome e Sobrenome</label>
+        <input type="text" id="nomeSobrenome" class="input-padrão">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" class="input-padrão">
+
+        <label for="Telefone">Telefone</label>
+        <input type="text" id="Telefone" class="input-padrão">
+
+        <label for="Mensagem">Mensagem</label>
+        <textarea name="" id="Mensagem" cols="64" class="input-padrão"></textarea>
+        <div>
+            <p>Como prefere o nosso contato</p>
+            <label for="radio-email"><input type="radio" name="contato" id="radio-email">E-mail</label>
 
 
-                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+            <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">Telefone</label>
 
-        </main>
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">Whatsapp</label>
+
+    </main>
 </body>
 
 </html>

@@ -8,12 +8,12 @@ body, html, nav, nav ul{
     margin: 0px auto;
 }
 
-header{
-    display: flex;
-}
 
-nav{
-    vertical-align: middle;
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 85px;
+    align-items: center;
 }
 
 nav li{
