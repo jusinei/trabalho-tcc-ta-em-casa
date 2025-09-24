@@ -1,24 +1,29 @@
-body, html, nav, nav ul{
+body, html{
     margin: 0;
     padding: 0;
 }
 
-.espaçamento-lateral{
-    width: 940px;
-    margin: 0px auto;
+/*HEADER*/
+header{
+    box-shadow: 0px 2px 2px rgb(224, 224, 224);
 }
 
-
-.flex{
+nav{
     display: flex;
     justify-content: space-between;
     margin: 0 85px;
     align-items: center;
 }
 
+nav ul{
+    display: flex;
+    padding: 0;
+}
+
 nav li{
     list-style: none;
     display: inline;
+    padding: 0px 12px;
 }
 
 nav a{
@@ -27,6 +32,23 @@ nav a{
     font-size: 22px;
     font-weight: bold;
 }
+
+
+/*MAIN*/
+main{
+    width: 940px;
+    margin: 0px auto;
+}
+
+
+.agendar{
+    margin: 0 0 10px 0;
+    padding: 10px 25px;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
 
 form{
     margin: 40px 0px;
@@ -51,11 +73,3 @@ form label,form p{
                                                                                                               
 }
 
-
-.agendar{
-    margin: 0 0 10px 0;
-    padding: 10px 25px;
-    width: 50%;
-    font-size: 20px;
-    text-align: center;
-}

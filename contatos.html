@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav class="flex">
+        <nav>
             <h1>Tá em casa</h1>
             <ul>
                 <li class="principal"><a href="index.html">Home</a></li>
@@ -22,7 +22,7 @@
     </header>
 
 
-    <main class="espaçamento-lateral">
+    <main>
         <section class="agendar">
             <h1>Agende um serviço</h1>
             <form id="form-agendamento">
@@ -30,6 +30,7 @@
                 <select id="tipo" required>
                     <option id="Selecione" value="" hidden>Selecione...</option>
                     <option value="residencial">Residencial</option>
+                    <option value="comercial">Comercial</option>
                 </select>
 
                 <label for="data">Data</label>
@@ -43,17 +44,13 @@
         </section>
 
 
-        <label for="nomeSobrenome">Nome e Sobrenome</label>
-        <input type="text" id="nomeSobrenome" class="input-padrão">
+        <input type="text" id="nomeSobrenome" class="input-padrão" placeholder="Nome">
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" class="input-padrão">
+        <input type="email" id="email" class="input-padrão" placeholder="Email">
 
-        <label for="Telefone">Telefone</label>
-        <input type="text" id="Telefone" class="input-padrão">
+        <input type="text" id="Telefone" class="input-padrão" placeholder="Telefone">
 
-        <label for="Mensagem">Mensagem</label>
-        <textarea name="" id="Mensagem" cols="64" class="input-padrão"></textarea>
+        <textarea name="" id="Mensagem" cols="64" class="input-padrão" placeholder="Mensagem"></textarea>
         <div>
             <p>Como prefere o nosso contato</p>
             <label for="radio-email"><input type="radio" name="contato" id="radio-email">E-mail</label>
