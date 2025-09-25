@@ -1,0 +1,47 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+header{
+    box-shadow: 0px 2px 2px rgb(224, 224, 224);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 85px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    padding: 0px 12px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+/*FOOTER*/
+footer{
+  background: #8ce7ee;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  margin: 0 0;
+  width: 100%;
+
+}
