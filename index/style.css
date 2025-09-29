@@ -1,11 +1,18 @@
 body,
-html {
+html, ul {
     margin: 0;
     padding: 0;
 }
 
+html{
+    height: 100%;
+}
+
 body {
     background-color: rgb(206, 206, 205);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 /*HEADER*/
@@ -27,7 +34,7 @@ nav {
 
 nav h1,
 .agendar h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 nav ul {
@@ -58,8 +65,25 @@ nav a {
 
 
 /*MAIN*/
-main {
+.margin-left {
     margin-left: 85px;
+}
+
+.containerServicos ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.containerServicos li{
+    padding: auto auto;
+    background-color: rgb(160, 160, 160);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    width: 20%; 
+    padding: 40px 0;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 
@@ -68,5 +92,6 @@ footer {
     background: rgba(155, 94, 130, 0.644);
     color: white;
     text-align: center;
-    padding: 14px 0;
+    padding: 65px 0;
+    margin-top: auto;
 }
